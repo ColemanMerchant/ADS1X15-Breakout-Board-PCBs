@@ -187,7 +187,6 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjY1NDg3" projecturn="a.cGVyc29uYWw6dWUyYjY1NDg3IzIwMjIwMTIxNDg4MDE2MTAx" f3durn="urn:adsk.wipprod:dm.lineage:GAe7uoNoQtKbF9LtAJrzzQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e513bb19-3a8c-46b7-a167-474499950d4a" lastsyncedrevisionid="e513bb19-3a8c-46b7-a167-474499950d4a" lastboardhashguid="88d159f3-8f77-b330-9bd0-324c28655493" lastpushedtime="2022-08-31T20:31:39Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="15.24" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
@@ -3331,10 +3330,10 @@ einem neuen Namen ab.</description>
 <element name="U$27" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="22.86" y="15.24" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="22.86" y="15.24" size="1.016" layer="27" font="vector" ratio="14" display="off"/>
 </element>
-<element name="CONN3" library="microbuilder" package="JST_SH4" override_package3d_urn="urn:adsk.eagle:package:37061667/2" override_package_urn="urn:adsk.eagle:footprint:37061668/1" value="STEMMA_I2C_QT" x="22.733" y="8.89" smashed="yes" rot="R90">
+<element name="CONN3" library="microbuilder" package="JST_SH4" value="STEMMA_I2C_QT" x="22.733" y="8.89" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.833" y="4.29" size="1.778" layer="25" rot="R90"/>
 </element>
-<element name="CONN4" library="microbuilder" package="JST_SH4" override_package3d_urn="urn:adsk.eagle:package:37061687/2" override_package_urn="urn:adsk.eagle:footprint:37061688/1" value="STEMMA_I2C_QT" x="2.667" y="8.89" smashed="yes" rot="R270">
+<element name="CONN4" library="microbuilder" package="JST_SH4" value="STEMMA_I2C_QT" x="2.667" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.567" y="13.49" size="1.778" layer="25" rot="R270"/>
 </element>
 <element name="FID3" library="microbuilder" package="FIDUCIAL_1MM" value="FIDUCIAL_1MM" x="5.08" y="4.826" smashed="yes">
@@ -3667,21 +3666,6 @@ einem neuen Namen ab.</description>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-<note version="9.4" severity="warning">
-Since Version 9.4, EAGLE supports the overriding of 3D packages
-in schematics and board files. Those overridden 3d packages
-will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
